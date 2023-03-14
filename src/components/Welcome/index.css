@@ -1,0 +1,60 @@
+.bg-Container {
+  background-color: #1e293b;
+  height: 100vh;
+  max-height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  color: #f0bb03;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+.para {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.button {
+  min-height: 30px;
+  min-width: 80px;
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+@media (max-width: 767px) {
+  .button {
+    max-height: 35px;
+    max-width: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+
+  .para {
+    font-size: 30px;
+  }
+
+  .button {
+    max-height: 40px;
+    max-width: 150px;
+    font-size: 15px;
+  }
+}
